@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>checked out</title>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myscripts.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id = "content" class="butt">
+      <p id = "content-body" style="display: inline;margin-top: 300px;"><img id="lol" src="GitHub-Mark-64px.png"> Request Review</p>
+      <p id = "hidden-content-body" style="display: none; background-color: transparent; color: #fff">
+        <img src = "yass.png">
+      </p>
+      <div>
+          <p id = "waiting" style="visibility: hidden; background-color: transparent; color: #fff" >Forming code review...</p>
+          <img src="1.png" class="eddie" style="visibility: hidden" id="img1">
+          <img src="1.png" class="eddie" style="visibility: hidden" id="img2">
+          <img src="1.png" class="eddie" style="visibility: hidden" id="img3">
+      </div>
+    </div>
+    
+
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+
+  </body>
+</html>
